@@ -1,0 +1,253 @@
+/*==================================================*/
+/*                    ALL BUTTONS                   */
+/*==================================================*/
+button, input[type=button], input[type=submit], input[type=reset], label, select, select option, .primary-button, .secondary-button{
+  cursor:pointer;
+}
+button, input[type=button], input[type=submit], input[type=reset], .primary-button, .secondary-button{
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:1.3;
+  outline:none;
+  position:relative;
+  text-align:center;
+  overflow:visible;
+  width:auto;
+}
+
+/*==================== TINY ====================*/
+.primary-button.tiny, button.primary-button.tiny, input[type=button].primary-button.tiny, input[type=submit].primary-button.tiny, input[type=reset].primary-button.tiny,
+.primary-button.tiny:visited, button.primary-button.tiny:visited, input[type=button].primary-button.tiny:visited, input[type=submit].primary-button.tiny:visited, input[type=reset].primary-button.tiny:visited,
+.secondary-button.tiny, button.secondary-button.tiny, input[type=button].secondary-button.tiny, input[type=submit].secondary-button.tiny, input[type=reset].secondary-button.tiny,
+.secondary-button.tiny:visited, button.secondary-button.tiny:visited, input[type=button].secondary-button.tiny:visited, input[type=submit].secondary-button.tiny:visited, input[type=reset].secondary-button.tiny:visited{
+  font-size:10px;
+  padding:5px 8px;
+  font-weight:normal;
+  min-width:75px;
+}
+
+/*==================== SMALL ====================*/
+.primary-button.small, button.primary-button.small, input[type=button].primary-button.small, input[type=submit].primary-button.small, input[type=reset].primary-button.small,
+.primary-button.small:visited, button.primary-button.small:visited, input[type=button].primary-button.small:visited, input[type=submit].primary-button.small:visited, input[type=reset].primary-button.small:visited,
+.secondary-button.small, button.secondary-button.small, input[type=button].secondary-button.small, input[type=submit].secondary-button.small, input[type=reset].secondary-button.small,
+.secondary-button.small:visited, button.secondary-button.small:visited, input[type=button].secondary-button.small:visited, input[type=submit].secondary-button.small:visited, input[type=reset].secondary-button.small:visited,
+button, input[type=button], input[type=submit], input[type=reset],
+.addtocartwrap .addtocartbutton{
+  font-size:11px;
+  padding:7px 10px;
+  min-width:75px;
+}
+
+/*==================== CTA ====================*/
+.primary-button.cta, button.primary-button.cta, input[type=button].primary-button.cta, input[type=submit].primary-button.cta, input[type=reset].primary-button.cta,
+.primary-button.cta:visited, button.primary-button.cta:visited, input[type=button].primary-button.cta:visited, input[type=submit].primary-button.cta:visited, input[type=reset].primary-button.cta:visited,
+.secondary-button.cta, button.secondary-button.cta, input[type=button].secondary-button.cta, input[type=submit].secondary-button.cta, input[type=reset].secondary-button.cta,
+.secondary-button.cta:visited, button.secondary-button.cta:visited, input[type=button].secondary-button.cta:visited, input[type=submit].secondary-button.cta:visited, input[type=reset].secondary-button.cta:visited{
+  font-size:20px;
+  padding: 10px 25px;
+}
+
+/*================ BUTTONS TEXT ================*/
+.primary-button, .primary-button:visited, .secondary-button, .secondary-button:visited, button, input[type=button], input[type=submit], input[type=reset]{
+  display:inline-block;
+  letter-spacing:0px;
+  margin:2px;
+  font-weight:normal; 
+}
+.primary-button, .primary-button:visited, button.primary-button, input[type=button].primary-button, input[type=submit].primary-button, input[type=reset].primary-button,
+.secondary-button, .secondary-button:visited, button, input[type=button], input[type=submit], input[type=reset]{
+  border:none;
+}
+
+/*=================== PRIMARY ===================*/
+.primary-button, .primary-button:visited, button.primary-button, input[type=button].primary-button, input[type=submit].primary-button, input[type=reset].primary-button, .addtocartwrap .addtocartbutton{
+  color:#fff;
+  border: 1px solid #0a1d59;
+  
+  background: #e52d2d; /* Old browsers */
+  background: -moz-linear-gradient(top, #e52d2d 0%, #9b2222 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e52d2d), color-stop(100%, #9b2222)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e52d2d 0%, #9b2222 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e52d2d 0%, #9b2222 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e52d2d 0%, #9b2222 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #e52d2d 0%, #9b2222 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e52d2d', endColorstr='#9b2222', GradientType=0 ); /* IE6-9 */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: 1px solid #9b2222;
+  -moz-box-shadow:    inset 0 1px 1px #fff;
+  -webkit-box-shadow: inset 0 1px 1px #fff;
+  box-shadow:         inset 0 1px 1px #fff;
+  
+}
+
+/*============= SECONDARY & DEFAULTS =============*/
+.secondary-button, .secondary-button:visited, button, input[type=button], input[type=submit], input[type=reset]{
+  color:#fff;
+  
+  background: #0194e6; /* Old browsers */
+  background: -moz-linear-gradient(top, #0194e6 0%, #0073b3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0194e6), color-stop(100%, #0073b3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #0194e6 0%, #0073b3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #0194e6 0%, #0073b3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #0194e6 0%, #0073b3 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #0194e6 0%, #0073b3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0194e6', endColorstr='#0073b3', GradientType=0 ); /* IE6-9 */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: 1px solid #0073b3;
+  -moz-box-shadow:    inset 0 1px 1px #fff;
+  -webkit-box-shadow: inset 0 1px 1px #fff;
+  box-shadow:         inset 0 1px 1px #fff;
+  
+}
+
+/*========== PRIMARY & SECONDARY SIZING ==========*/
+.primary-button, .primary-button:visited, button.primary-button, input[type=button].primary-button, input[type=submit].primary-button, input[type=reset].primary-button,
+.secondary-button, .secondary-button:visited, button.secondary-button, input[type=button].secondary-button, input[type=submit].secondary-button, input[type=reset].secondary-button{
+  font-size:14px;
+  padding:10px 20px;  
+}
+
+/*=============== IE IMAGE FALLBACKS ==============*/
+.ie .primary-button, .ie button.primary-button, .ie input[type=button].primary-button, .ie input[type=reset].primary-button, .ie input[type=submit].primary-button, .ie .addtocartwrap .addtocartbutton{
+
+}
+
+.ie .secondary-button, .ie button.secondary-button, .ie input[type=button].secondary-button, .ie input[type=reset].secondary-button, .ie input[type=submit].secondary-button, .ie input[type=button], .ie button, .ie input[type=submit], .ie input[type=reset]{
+
+}
+
+/*================ PRIMARY HOVER ================*/
+.primary-button:hover, button.primary-button:hover, input[type=button].primary-button:hover, input[type=submit].primary-button:hover, input[type=reset].primary-button:hover, .addtocartwrap .addtocartbutton:hover{
+  color:#fff;
+  border-color: #9b2222;
+}
+
+
+/*============== SECONDARY HOVER ==============*/
+.secondary-button:hover, button.secondary-button:hover, input[type=button].secondary-button:hover, input[type=submit].secondary-button:hover, input[type=reset].secondary-button:hover, 
+button:hover,input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+  color:#fff;
+  border-color:#0073b3;
+}
+
+/*================ PRIMARY ACTIVE ================*/
+.primary-button:active, button.primary-button:active, input[type=button].primary-button:active, input[type=submit].primary-button:active, input[type=reset].primary-button:active{  
+  color:rgba(255,255,255,0.9);
+
+}
+
+/*============== SECONDARY ACTIVE ==============*/
+.secondary-button:active, button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active,
+button.secondary-button:active, input[type=button].secondary-button:active, input[type=submit].secondary-button:active, input[type=reset].secondary-button:active{
+
+}
+/*========= PRIMARY & SECONDARY ACTIVE =========*/
+.primary-button:active, .secondary-button:active, button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active,
+button.primary-button:active, input[type=button].primary-button:active, input[type=submit].primary-button:active, input[type=reset].primary-button:active,
+button.secondary-button:active, input[type=button].secondary-button:active, input[type=submit].secondary-button:active, input[type=reset].secondary-button:active{
+  box-shadow:inset 0 0 4px rgba(0,0,0,0.5);
+  -moz-box-shadow:inset 0 0 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow:inset 0 0 4px rgba(0,0,0,0.5);
+  -o-box-shadow:inset 0 0 4px rgba(0,0,0,0.5);
+  -ms-box-shadow:inset 0 0 4px rgba(0,0,0,0.5);
+  text-shadow:none;
+}
+
+/*==================================================*/
+/*               ALL FORM ELEMENTS                  */
+/*==================================================*/
+
+input, textarea, select {outline:none;}
+input, textarea, select, label{
+  font-family: Arial, Helvetica, sans-serif;
+}
+label{
+  font-size:12px;
+}
+input[type=text], input[type=password], input[type=file], textarea, select{
+  font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+  background:#fff ;
+  border:1px solid #ccc;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -o-border-radius:4px;
+  -ms-border-radius:4px;
+  height:25px;
+  padding:5px;
+  min-width:160px;
+  color:#8d8d8d;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,0.1), 1px 1px 0 rgba(255,255,255,0.5);
+  -moz-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1), 1px 1px 0 rgba(255,255,255,0.5);
+  -webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1), 1px 1px 0 rgba(255,255,255,0.5);
+  -o-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1), 1px 1px 0 rgba(255,255,255,0.5);
+  -ms-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1), 1px 1px 0 rgba(255,255,255,0.5);
+  
+  width:96%;
+  margin: 0 0 10px;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=file]:focus, textarea:focus {
+  outline:none;
+  border-color:#bbb;
+}
+textarea{
+  height: 90px;
+  resize: none;
+}
+select{
+  color:#8d8d8d;
+  background:url(../images/ddl.png) right center no-repeat #fff;
+  cursor:pointer;
+  appearance:none;
+  -webkit-appearance:none;
+  height:35px;
+  padding:7px 5px;
+  -webkit-padding-end:20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:#ccc;
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+}
+
+.primary-button a, .secondary-button a {
+  color: #fff;  
+}
+
+.navWidth .secondary-button {
+  margin-top: 7px;  
+}
+.secondary-button.file-upload {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.secondary-button input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;  
+}
+.file-upload-file{
+  padding: 6px 10px;
+  display: block;
+  float: left;
+}

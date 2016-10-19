@@ -1,0 +1,72 @@
+#navWrapper .primary-button.small{
+  margin-top:6px;
+}
+#nav{
+  height: 24px;
+  width: 740px;
+  padding: 10px 0px 10px 0px;
+  line-height: 24px;
+  float:left;
+  position: relative;
+}
+#nav li {
+  float: left;
+  position: relative;
+  margin: 0px 12px;
+}
+#nav li a, #nav .noAnchor {
+  color: #6a6a6a;
+  text-decoration: none;
+  display: block;
+  line-height: 24px;
+  padding: 0px 12px 0px 12px;
+  font-size: 17px;
+  margin: 0px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#nav .noAnchor {
+  cursor: default;  
+}
+#nav a:hover, #nav li:hover .noAnchor, #nav .hasdrop:hover .trigger.active{
+  color: #333;
+  text-decoration: none;
+}
+/*--- DROPDOWN ---*/
+#nav .dropdown{
+  display:none;
+  padding-top:10px;
+}
+#nav .dropdown ul {
+  background: #e8e8e8;
+  list-style: none;
+  position: absolute;
+  padding:10px 15px;
+  box-shadow:0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.3);
+  -moz-box-shadow:0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.3);
+  -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.3);
+  -o-box-shadow:0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.3);
+  -ms-box-shadow:0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.3);
+  z-index: 10;
+  -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -khtml-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+#nav .dropdown ul li {
+  padding-top: 1px; 
+  float: none;
+}
+#nav .dropdown ul li {
+  margin:0; 
+  height:30px;
+}
+#nav .dropdown ul li a{
+  padding:0;
+  line-height: 24px;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: 600;
+  text-transform:none;
+  white-space: nowrap;
+}
