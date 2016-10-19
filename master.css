@@ -107,7 +107,7 @@ a:hover {
 #home-slider{
   height:370px;
   width:100%;
-  background: url(images/home-sliderbg.jpg) top center no-repeat #000;
+  background: url('images/home-sliderbg.jpg') top center no-repeat #000;
 }
 #home-slider .slides{
   width:980px;

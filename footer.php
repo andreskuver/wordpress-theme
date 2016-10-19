@@ -13,7 +13,6 @@
     <?php wp_footer();?>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/cufon-yui.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.cycle.all.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/Franklin_Gothic_Demi_Cond_400.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/Franklin_Gothic_Medium_Cond_400.font.js"></script>
